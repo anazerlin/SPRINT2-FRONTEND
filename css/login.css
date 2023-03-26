@@ -1,0 +1,17 @@
+* {
+    background-color: #ECF7E2;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+    color: #638363;
+}
+
+.login {
+    justify-content: center;
+    text-align: center;
+    
+}

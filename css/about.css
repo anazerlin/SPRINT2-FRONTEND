@@ -2,27 +2,31 @@
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: #ECF7E2;
 }
 
 button {
   font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: green;
-  color: white;
+  background-color: #638363;
+  text-decoration: none;
   width: 90px;
   height: 30px;
-  margin-left: 10px;
-  margin-top: 40px;
-  text-decoration: none;
+  margin-left: 680px;
+  margin-top: 80px;
   border-radius: 10px;
-  box-shadow: 3px 3px 3px rgb(14, 36, 3);
-
+  box-shadow: 3px 3px 3px rgb(61, 68, 57);
+ 
 
 }
 
-h3 {
+h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #638363;
 }
 
 p {
@@ -30,7 +34,10 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
     display: flex;
-    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     border-top: 6px;
+    text-align: justify;
   
 }
