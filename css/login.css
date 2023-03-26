@@ -1,17 +1,54 @@
 * {
-    background-color: #ECF7E2;
+  background-color: #ecf7e2;
 }
 
 h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 300;
-    margin-top: 20px;
-    text-align: center;
-    color: #638363;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  margin-top: 20px;
+  text-align: center;
+  color: #638363;
+  font-style: oblique;
 }
 
-.login {
+.card-content {
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-content-area {
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-footer {
     justify-content: center;
     text-align: center;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-transform: none;
+}
+
+button, .button-saque {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #638363;
+    text-decoration: none;
+    width: 90px;
+    height: 30px;
+    margin-left: 680px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(61, 68, 57);
+    
+}
+
+.usuario {
+    width: 100px;
+    background-color: #638363;
     
 }
