@@ -1,5 +1,5 @@
 * {
-    background-color: #ecf7e2;
+  background-color: #ecf7e2;
 }
 
 h2 {
@@ -41,28 +41,28 @@ h2 {
 }
 
 .pagamento {
-    font-size: 16px;
-    text-align: start;
-    width: 350px;
-    height: 30px;
-    margin-left: 15px;
-    margin-top: 50px;
-    background-color: #638363;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 5px;
-    box-shadow: 4px 4px 4px #3f533f;
-  }
+  font-size: 16px;
+  text-align: start;
+  width: 350px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 50px;
+  background-color: #638363;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px #3f533f;
+}
 
 button {
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #638363;
-    text-decoration: none;
-    width: 90px;
-    height: 30px;
-    margin-left: 680px;
-    margin-top: 80px;
-    border-radius: 4px;
-    box-shadow: 4px 3px 3px rgb(91, 100, 86);
-  }
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #638363;
+  text-decoration: none;
+  width: 90px;
+  height: 30px;
+  margin-left: 680px;
+  margin-top: 80px;
+  border-radius: 4px;
+  box-shadow: 4px 3px 3px rgb(91, 100, 86);
+}
