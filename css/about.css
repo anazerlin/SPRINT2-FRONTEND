@@ -19,3 +19,18 @@ button {
 
 
 }
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    border-top: 6px;
+  
+}
