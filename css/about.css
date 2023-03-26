@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+button {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: green;
+  color: white;
+  width: 90px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 40px;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(14, 36, 3);
+
+
+}
