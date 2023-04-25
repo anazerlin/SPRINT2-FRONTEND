@@ -3,6 +3,7 @@ body {
   padding: 0;
   border: 0;
   background-color: #ECF7E2;
+  height: 1000px;
 }
 li titulo {
   float: left;
@@ -33,4 +34,60 @@ li a {
 li a:hover {
   background-color: #476147;
 }
+
+.container-apresentacao {
+  width: 800px;
+  height: 290px;
+  margin: 50px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 25px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+#titulo {
+  font-size: 30px;
+  color: #476147;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#explicacao {
+  width: 400px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #476147;
+  
+}
+img {
+  width: 350px;
+  height: 250px;
+  border-radius: 20px;
+  margin-left: 470px;
+  margin-top: -500px;
+}
+
+.intro{
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#titulo-intro {
+  font-size: 30px;
+  padding: 40px;
+}
+#explicacao-intro {
+  font-size: 20px;
+  padding: 10px;
+}
+#botao-intro {
+  width: 200px;
+  height: 40px;
+  font-size: 17px;
+  background-color: #476147;
+}
+
 
