@@ -1,16 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.html">
-    <link rel="stylesheet" href="/css/contato.css">
+    <!-- <link rel="stylesheet" href="index.html"> -->
+    <link rel="stylesheet" href="../css/contato.css">
 </head>
 <body>
-    <h2>Entre em contato conosco através do nosso e-mail: <strong>urbitável@atendimento.com.br</strong></h2>
+    <header>
+        <h1>URBITÁVEL</h1>
 
-    <button><a href="index.html">Voltar</a></button>
+        <img src="../img/logo.jpg">
+    </header>
+
+    <nav>
+        <ul id="menu">
+            <li><a href="login.html">Minha conta</a></li>
+            <li><a href="saibamais.html">Saiba mais</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="cominicacao" name="comunicacao" method="get">
+            <h2 id="tituloComunic">Canal de Comunicação</h2> <br><br>
+
+            <p>
+                Entre em contato com nós via e-mail. <br>
+                Responderemos o mais rápido possível!
+            </p> <br><br><br>
+
+            <fieldset>
+                <label for="c-nome">Nome </label> <br>
+                <input type="text" name="nome" id="c-nome"> <br><br>
+
+                <label for="c-email">E-mail </label> <br>
+                <input type="email" name="email" id="c-email"> <br><br><br>
+
+                <label for="c-duvida">Escreva sua mensagem ou dúvida: </label> <br>
+                <input type="text" name="duvida" id="c-duvida"> <br><br>
+            </fieldset>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <footer>
+        <h3>TM Urbitável Brasil 2023 | Organização sem fins lucrativos</h3>
+    </footer>
+
 </body>
 </html>
