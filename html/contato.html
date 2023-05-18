@@ -31,38 +31,44 @@
     </nav>
 
     <main>
-        <form action="cominicacao" name="comunicacao" method="get">
-            <h2 id="tituloComunic">Canal de Comunicação</h2>
+        <div>
+            <form id="comunicacao" action="cominicacao" name="comunicacao" method="get">
+                <h2 id="tituloComunic">Canal de Comunicação</h2>
 
-            <p>
-                Entre em contato com nós via e-mail. <br>
-                Responderemos o mais rápido possível!
-            </p> <br><br><br>
+                <p>
+                    Entre em contato com nós via e-mail. <br>
+                    Responderemos o mais rápido possível!
+                </p> <br><br><br>
 
-            <fieldset>
-                <label for="c-nome" class="titulos">Nome </label> <br>
-                <input type="text" name="nome" id="c-nome"> <br><br>
+                <fieldset>
+                    <label for="c-nome" class="titulos">Nome </label> <br>
+                    <input type="text" name="nome" id="c-nome"> <br><br>
 
-                <label for="c-email2" class="titulos">E-mail </label> <br>
-                <input type="email" name="email2" id="c-email2"> <br><br><br>
+                    <label for="c-email2" class="titulos">E-mail </label> <br>
+                    <input type="email" name="email2" id="c-email2"> <br><br><br>
 
-                <label for="c-duvida" class="titulos">Escreva sua mensagem ou dúvida: </label> <br>
-                <input type="text" name="duvida" id="c-duvida"> <br><br>
-            </fieldset>
+                    <label for="c-duvida" class="titulos">Escreva sua mensagem ou dúvida: </label> <br>
+                    <input type="text" name="duvida" id="c-duvida"> <br><br>
+                </fieldset>
 
-            <input type="submit" value="Enviar">
-        </form>
-    </main>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
         <div id="notificacaoEmail">
-            <h2>Cadastre-se abaixo!</h2>
+            <h2>Cadastre-se abaixo!</h2> <br>
 
-            <p>Receba alertas de ações e novos conteúdos no seu e-mail.</p>
+            <p>Receba alertas de ações e novos conteúdos no seu e-mail.</p> <br>
 
             <form action="notificacao" name="notifEmail" method="get">
                 <label for="c-email"></label>
-                <input type="email" name="email" id="c-email"> <br>
+                <input type="email" name="email" id="c-email"> <br><br>
             </form>
+
+            <input type="submit" value="Enviar">
         </div>
+    </main>
+
     <footer>
         <h3>TM Urbitável Brasil 2023 | Organização sem fins lucrativos</h3>
     </footer>
