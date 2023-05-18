@@ -1,1 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+#priv{
+    background-color: #F4F9F3;
+    padding: 20px;
+    margin: 50px 30% 50px 30%;
+}
+
+#priv h2{
+    text-align: center;
+    color: #638363;
+}
+
+.paragrafo{
+    text-indent: 15px;
+}
