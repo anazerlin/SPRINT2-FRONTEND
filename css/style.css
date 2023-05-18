@@ -143,11 +143,14 @@ img {
 } */
 
 #notificacaoEmail{
+  min-height: 300px;
   background-image: url(../img/rodapé.jpg);
   margin: 0;
   padding: 15px;
-  border: 2px solid black;
-  border-top: 5px solid gray;
+  border-top: 15px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #notificacaoEmail p{
@@ -155,10 +158,27 @@ img {
   font-family: Epilogue;
 }
 
+#c-email{
+  width: 300px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+#inscrever{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: auto;
+  border: 1px solid rgb(116, 116, 255);
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+  font: rgb(116, 116, 255);
+}
+
 footer{
   background-color: #58774C;
-  min-height: 50px;
-  padding: 15px;
+  min-height: 25px;
+  padding: 10px;
   text-align: center;
   justify-content: space-around;
 }
