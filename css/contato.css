@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100&display=swap');
 
 #comunicacao{
-  width: 400px;
-  padding: 10px;
+  width: 40%;
+  padding: 40px;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 100px;
   border: 1px solid black;
   border-radius: 5px;
   background-color: whitesmoke;
@@ -12,28 +13,38 @@
 }
 
 #comunicacao label{
-  display: inline-block;
-  width: 80px;
+  display: flex;
+}
+
+.infos{
+  display: flex;
+  margin-left: 24.4%;
+}
+
+#c-nome{
+  width: 50%;
+  height: 22px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#c-email2{
+  width: 50%;
+  height: 22px;
+  border: 1px solid black;
+  border-radius: 3px;
 }
 
 #c-duvida{
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 3px;
 }
 
-/* .titulos{
-  text-align: left;
-} */
-
-#comunicacao input{
-  margin-bottom: 7px;
-  border: 2px solid #58774C;
-}
-
-footer{
-  background-color: #58774C;
-  min-height: 50px;
-  padding: 15px;
-  text-align: center;
-  justify-content: space-around;
+#btncomunicacao{
+  padding: 10px 15px 10px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(189, 189, 189);
 }
