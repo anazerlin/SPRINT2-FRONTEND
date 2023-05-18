@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale Conosco</title>
-    <!-- <link rel="stylesheet" href="index.html"> -->
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/contato.css">
 </head>
 <body>
@@ -32,7 +32,7 @@
 
     <main>
         <form action="cominicacao" name="comunicacao" method="get">
-            <h2 id="tituloComunic">Canal de Comunicação</h2> <br>
+            <h2 id="tituloComunic">Canal de Comunicação</h2>
 
             <p>
                 Entre em contato com nós via e-mail. <br>
@@ -40,20 +40,29 @@
             </p> <br><br><br>
 
             <fieldset>
-                <label for="c-nome">Nome </label> <br>
+                <label for="c-nome" class="titulos">Nome </label> <br>
                 <input type="text" name="nome" id="c-nome"> <br><br>
 
-                <label for="c-email">E-mail </label> <br>
-                <input type="email" name="email" id="c-email"> <br><br><br>
+                <label for="c-email2" class="titulos">E-mail </label> <br>
+                <input type="email" name="email2" id="c-email2"> <br><br><br>
 
-                <label for="c-duvida">Escreva sua mensagem ou dúvida: </label> <br>
+                <label for="c-duvida" class="titulos">Escreva sua mensagem ou dúvida: </label> <br>
                 <input type="text" name="duvida" id="c-duvida"> <br><br>
             </fieldset>
 
             <input type="submit" value="Enviar">
         </form>
     </main>
+        <div id="notificacaoEmail">
+            <h2>Cadastre-se abaixo!</h2>
 
+            <p>Receba alertas de ações e novos conteúdos no seu e-mail.</p>
+
+            <form action="notificacao" name="notifEmail" method="get">
+                <label for="c-email"></label>
+                <input type="email" name="email" id="c-email"> <br>
+            </form>
+        </div>
     <footer>
         <h3>TM Urbitável Brasil 2023 | Organização sem fins lucrativos</h3>
     </footer>

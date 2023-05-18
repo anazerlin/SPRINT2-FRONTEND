@@ -17,33 +17,30 @@ body {
   font-family: Epilogue black;
 }
 
-li {
-  float: right;
-}
-
-li a {
-  display: flex;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #476147;
-}
-
 form{
-  width: 300px;
+  width: 400px;
+  padding: 10px;
   margin: auto;
+  margin-top: 50px;
   border: 1px solid black;
   border-radius: 5px;
+  background-color: whitesmoke;
+  text-align: center;
 }
 
 label{
   display: inline-block;
   width: 80px;
 }
+
+#c-duvida{
+  width: 300px;
+  height: 200px;
+}
+
+/* .titulos{
+  text-align: left;
+} */
 
 input{
   margin-bottom: 7px;
