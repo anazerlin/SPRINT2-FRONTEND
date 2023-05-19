@@ -48,13 +48,23 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  background-color: #ffffff99;
+  background-color: #ffffff44;
   border-radius: 7px;
 }
 
-li titulo{
-  float: left;
+#simbApoie{
+  background-color: #1c3019;
+  border-radius: 20px;
 }
+
+#simbApoie a:hover{
+  background-color: #ffffff44;
+  border-radius: 20px;
+}
+
+/* li titulo{
+  float: left;
+} */
 
 /* #menu {
   list-style-type: none;

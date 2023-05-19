@@ -2,8 +2,10 @@
 
 #priv{
     background-color: #F4F9F3;
-    padding: 20px;
-    margin: 50px 30% 50px 30%;
+    border-radius: 25px;
+    padding: 50px 30px 50px 30px;
+    margin: 150px 15% 50px 15%;
+    box-shadow: -1px 2px 2px grey;
 }
 
 #priv h2{
@@ -11,6 +13,11 @@
     color: #638363;
 }
 
-.paragrafo{
-    text-indent: 15px;
+#privacidade{
+    margin: 5% 30% 10% 30%;
+    text-align: justify;
+}
+
+.indice{
+    font-weight: bold;
 }
