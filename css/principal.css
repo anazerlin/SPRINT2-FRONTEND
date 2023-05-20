@@ -63,3 +63,12 @@
     padding-left: 25%;
     padding-right: 25%;
 }
+
+#btnSaibamais{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 15px 10px 15px;
+    color: black;
+    background-color: #638363;
+}

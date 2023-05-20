@@ -18,16 +18,44 @@ body {
   font-family: Epilogue;
 }
 
+#cabecalho{
+  background-color: #2C4928;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: space-evenly;
+  align-items: center;
+}
+
 header{
   margin: 0;
+}
+
+#logo{
+  /* float: left; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: space-evenly;
+  padding: 15px 10px 15px 50px;
+}
+
+logo img{
+  padding: 5px 10px 5px 10px;
 }
 
 nav{
   min-height: 50px;
   background-color: #2C4928;
-  padding: 10px;
+  padding: 15px 20px 15px 20px;
   margin: 0;
   clear: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: space-evenly;
+  width: 100%;
 }
 
 nav ul{
@@ -62,19 +90,6 @@ nav ul li a:hover{
   border-radius: 20px;
 }
 
-/* li titulo{
-  float: left;
-} */
-
-/* #menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 5;
-  overflow: hidden;
-  background-color: #638363;
-  font-size: 20px;
-} */
-
 li {
   /* float: right; */
   flex-direction: column;
@@ -93,52 +108,6 @@ li a {
 li a:hover {
   background-color: #476147;
 }
-
-/*
-
-#titulo {
-  font-size: 30px;
-  font-weight: bold;
-  color: #476147;
-  
-}
-
-#explicacao {
-  font-size: 15px;
-  text-align: justify;
-  color: black;
-  
-}
-
-img {
-  width: 350px;
-  height: 250px;
-  border-radius: 20px;
-  margin-left: 470px;
-  margin-top: -500px;
-}
-
-.intro{
-  width: 600px;
-  height: 300px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-#titulo-intro {
-  font-size: 30px;
-  padding: 40px;
-}
-#explicacao-intro {
-  font-size: 20px;
-  padding: 10px;
-}
-#botao-intro {
-  width: 200px;
-  height: 40px;
-  font-size: 17px;
-  background-color: #476147;
-} */
 
 #notificacaoEmail{
   min-height: 300px;
