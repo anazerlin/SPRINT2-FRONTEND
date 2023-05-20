@@ -31,17 +31,41 @@
     </nav>
 
     <main>
+        <div id="apoio">
+            <p id="titulo">Doe agora mesmo.</p> <br>
+
+            <p>Precisamos de ajuda para proteger a terra</p> <br><br>
+
+            <img src="../img/lixos_brancos.jpg"> <br><br>
+
+            <p>Qualquer valor é bem-vindo!</p> <br><br>
+
+            <p>Insira o valor que você gostaria de doar:</p> <br>
+
+            <form action="doacao" name="ajuda" method="get">
+                <fieldset>
+                    <label for="c-valor"></label>
+                    <input type="number" name="valor" id="c-valor" min="0" step="0.01" placeholder="R$">
+                </fieldset> <br>
+
+                <input type="submit" value="Realizar doação" id="btnDoacao">
+            </form>
+
+        </div>
+
         <div id="notificacaoEmail">
             <h2>Cadastre-se abaixo!</h2> <br>
 
             <p>Receba alertas de ações e novos conteúdos no seu e-mail.</p> <br>
 
             <form action="notificacao" name="notifEmail" method="get">
-                <label for="c-email"></label>
-                <input type="email" name="email" id="c-email"> <br><br><br>
-            </form>
+                <fieldset>
+                    <label for="c-email"></label>
+                    <input type="email" name="email" id="c-email"> <br><br><br>
 
-            <input id="inscrever" type="submit" value="Inscrever-se">
+                    <input id="inscrever" type="submit" value="Inscrever-se">
+                </fieldset>
+            </form>
         </div>
     </main>
 

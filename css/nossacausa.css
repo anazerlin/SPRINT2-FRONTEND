@@ -29,7 +29,7 @@
     background-color: #D9D9D9;
     display: flex;
     align-items: center;
-    align-content: space-evenly;
+    align-content: center;
     width: 20%;
     height: 60px;
     padding: 2% 5% 2% 5%;
@@ -38,6 +38,10 @@
 
 .topicos p{
     text-align: left;
+}
+
+.arrumadinha{
+    padding-left: 20px;
 }
 
 .topicos img{
